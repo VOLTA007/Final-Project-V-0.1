@@ -1,5 +1,5 @@
 body { /* Body */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
@@ -154,7 +154,54 @@ hr{
 /* BUTTONS - TEXT DECORATIONS - ETC */
 /* BUTTONS - TEXT DECORATIONS - ETC */
 
+.fline{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 650;
+    font-size: 12px;
+    background-image: linear-gradient(120deg, #3d12fa 0%, #5a08c4 35%, #ff00aa 100%);
+    color: aliceblue;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Add box shadow */
+  }
 
+
+  .sameh{
+    background: -webkit-linear-gradient(0deg, #2f00ff 6px, #ff00c8 210px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  .b5{
+    padding: 4px;
+    font-size: 11px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.2s ease;
+    width: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Add box shadow */
+  }
+
+
+  
+  .b6{
+    background-color: #2f00ff;
+    color: aliceblue;
+  }
+
+
+  .bt:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: background-color 0.2s ease;
+  }
+
+
+  .b8{
+    background-color: #2f00ff;
+    color: aliceblue;
+}
 
 
 
