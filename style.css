@@ -6,6 +6,10 @@ body { /* Body */
     transition: background-color 0.3s;
 }
 
+.head1{
+    color: aliceblue;
+}
+
 
 .navbar-header{ /* Parent 1 */
     display: flex;
@@ -260,7 +264,7 @@ hr{
 }
 
 
-.b2{
+  .b2{
     padding: 6px 4px;
     font-size: 10px;
     border-radius: 10px;
@@ -283,6 +287,10 @@ hr{
     .b2{
         display: none;
     }
+
+    .head1{
+        font-size: 14px;
+    }
 }
 
 
@@ -292,6 +300,65 @@ hr{
 @media (min-width: 768px) {
     .hamburger-menu {
         display: none;
+    }
+
+
+    .b2{
+        font-size: 12px;
+        width: 80px;
+        height: auto;
+    }
+
+
+    .navbar-header{ /* Parent 1 */
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+     /* sameh */
+
+    .samehprop{
+        margin-left: 40px;
+        font-size: 30px;
+    }
+
+    .p1{
+        font-size: 30px; 
+    }
+
+
+    .sameh{
+        font-size: 50px;
+    }
+
+
+    .fline{
+        font-weight: 650;
+        font-size: 18px;
+      }
+
+    
+    .b5{
+        font-size: 15px;
+        width: 80px;
+        height: auto;
+      }
+
+
+    .imgsameh { /* child 2 */
+        text-align: center;
+        max-width: 490px;
+        margin-right: 320px;
+    }
+
+
+       /* deadly*/
+
+
+    .imgdeadly{
+        margin-left: 320px;
+        max-width: 450px;
     }
 }
 
