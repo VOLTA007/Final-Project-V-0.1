@@ -81,19 +81,22 @@ body { /* Body */
     top: 35px;
     right: 0;
     border-radius: 2px;
-    width: 200px;
+    max-width: 0;
+    overflow: hidden;
+    width: 100%;
     height: 100px;
     background-color: #25aa67;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    left: 100%; /* Position the element outside the container */
-    transition: left 1s, opacity 1s, visibility 0s 1s; /* Adjusted transitions */
+    margin-right: -200px;
+    transition: max-width 1s, margin-right 1s, opacity 5s, visibility 0s 1s; /* Adjusted transitions */
 }
 
 .navhamburger.show {
     opacity: 1;
     visibility: visible;
-    left: calc(100% - 200px); /* Position the element back inside the container */
-    transition: left 1s, opacity 1s;
+    max-width: 200px; /* Adjusted max-width to reveal the menu */
+    margin-right: 0;
+    transition: max-width 1s, margin-right 1s, opacity 1s;
 }
 
 
@@ -321,31 +324,3 @@ hr{
 
 /*notes*/
 
-
-/*alternative navbar 
-.navhamburger {
-    display: flex;
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    justify-content: center;
-    top: 35px;
-    right: 0;
-    border-radius: 2px;
-    max-width: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 100px;
-    background-color: #25aa67;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    margin-right: -200px;
-    transition: max-width 0.1s, margin-right 1s, opacity 5s, visibility 0s 1s; /* Adjusted transitions /
-}
-
-.navhamburger.show {
-    opacity: 1;
-    visibility: visible;
-    max-width: 200px; /* Adjusted max-width to reveal the menu /
-    margin-right: 0;
-    transition: max-width 0.1s, margin-right 1s, opacity 0.1s;
-}*/
