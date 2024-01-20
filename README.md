@@ -5,4 +5,4 @@ Text styling with navbar
 Visual buttons and text improved
 
 # Final-Project-V-0.1
-initial project
+Initial project
