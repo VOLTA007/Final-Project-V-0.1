@@ -225,16 +225,16 @@ hr{
 
 
 .footer{
-    bottom: 0;
-    left: 0;
-    width: 100%;
     background-color: hsl(230, 100%, 95%);
     text-align: center;
-    padding: 10px;
-    padding-top: 40px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: static;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+  }
+
 
 
 
