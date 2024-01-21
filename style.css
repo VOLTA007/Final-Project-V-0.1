@@ -4,6 +4,7 @@ body { /* Body */
     padding: 0;
     margin: 0;
     transition: background-color 0.3s;
+    background-color: #abacc780;
 }
 
 .head1{
@@ -31,6 +32,7 @@ body { /* Body */
     min-width: 80px;
     height: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 
@@ -54,6 +56,10 @@ body { /* Body */
   position: relative; /* Establishes a stacking context */
   z-index: 999; /* Set a higher z-index */
 }
+
+
+
+
 
 .hamburger-menu .line {
   background-color: rgb(255, 255, 255);
@@ -91,17 +97,25 @@ body { /* Body */
     overflow: hidden;
     width: 100%;
     height: 100px;
-    background-color: #25aa67;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     transition: max-width 1s, opacity 8s, visibility 0s 1s;
     gap: -1px;
+    background: hsl(0, 0, 100% / 0.1);
+    backdrop-filter: blur(2rem);
 }
 
 .navhamburger.show {
     opacity: 1;
     visibility: visible;
     max-width: 200px; /* Expand to full width */
+    background: hsl(0, 0, 100% / 0.1);
     transition: max-width 1s, opacity 1s;
+}
+
+
+.Lux{
+    position: relative;
+    top: 8px;
 }
 
 
@@ -207,6 +221,19 @@ hr{
     height: auto;
     border-radius: 20px;
     margin-left: -40px;
+}
+
+
+.footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(230, 100%, 95%);
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 
