@@ -355,11 +355,7 @@ hr{
 
 @media (max-width: 768px) {
 
-
-    body{
-        filter: saturate(150%);
-    }
-
+    
     .b2{
         display: none;
     }
