@@ -318,14 +318,24 @@ hr{
 
 .menubut{
     font-size: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: rgb(255, 255, 255);
     transition: background-color 0.2s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
     padding: 2;
     white-space: nowrap;
+    border: none;
+    width: auto;
+    height: 20px;
 }
+
+
+.but2{
+    margin-top: 40px;
+}
+
+
+
 
 .menubut:hover{
     background-color: black;
