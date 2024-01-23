@@ -11,7 +11,9 @@ body { /* Body */
 }
 
 .head1{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: 50;
 }
 
 
@@ -184,7 +186,7 @@ hr{
     margin-bottom: 40px;
     white-space: wrap;
     font-style: italic;
-    font-weight: bolder;
+    font-weight: 50;
 }
 
 
