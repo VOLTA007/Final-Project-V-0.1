@@ -354,6 +354,12 @@ hr{
 /* DIFFERENT SCREEN PX */
 
 @media (max-width: 768px) {
+
+
+    body{
+        filter: saturate(150%);
+    }
+
     .b2{
         display: none;
     }
@@ -368,6 +374,7 @@ hr{
 
 
 @media (min-width: 768px) {
+
     .hamburger-menu {
         display: none;
     }
