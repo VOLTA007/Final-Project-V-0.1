@@ -3,7 +3,7 @@ body { /* Body */
     font-family: 'Plus Jakarta Sans', sans-serif;
     overflow-x: hidden;
     padding: 0;
-    margin: 0;
+    margin: 1px;
     transition: background-color 0.3s;
     background-color: #cbd1c1e5;
     min-height: 100vh;
@@ -149,20 +149,38 @@ body { /* Body */
 
 
 .container-1 { /* Parent 2 */
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    grid-template-rows: auto auto auto; /* Two rows, the second row will take the remaining space */
+    justify-items: center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    column-gap: 0px;
+    row-gap: 30px;
+    margin: 13px;
 }
 
 .samehprop { /* child 1 */
-    flex: 1;
     text-align: center;
+    justify-self: center;
+    align-self: center;
+    grid-column: span 1;
+    grid-row: span 2; 
 }
 
+.samehresume {
+    justify-self: start;
+    align-self: start;
+    grid-column: span 2;
+  }
+
+  .parag{
+    white-space: pre-wrap;
+  }
+  
+
 .imgsameh { /* child 2 */
-    flex: 1;
     text-align: center;
     border-radius: 30px;
     background-image: linear-gradient(120deg, #3d12fa 0%, #5a08c4 35%, #ff00aa 100%);
@@ -171,6 +189,7 @@ body { /* Body */
     max-width: 550px;
     min-height: 128px;
     margin-right: 4px;
+    grid-row: 2;
 }
 
 .samimg{ /* grand child 2 img*/
@@ -187,7 +206,7 @@ hr{
     border-top: 10px solid rgb(0, 60, 255);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    margin-top: 40px;
+    margin-top: 15px;
     margin-bottom: 40px;
 }
 
@@ -199,6 +218,7 @@ hr{
     margin-bottom: 40px;
     white-space: wrap;
     font-style: italic;
+    font-size: 20px;
     font-weight: 50;
 }
 
@@ -359,7 +379,14 @@ hr{
     background-color: black;
     color: aliceblue;
     transition: background-color 0.2s ease;
-  }
+}
+
+
+.hresume{
+    text-align: left;
+    text-decoration: underline;
+}
+
 
 
 
