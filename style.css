@@ -5,14 +5,14 @@ body { /* Body */
     padding: 0;
     margin: 1px;
     transition: background-color 0.3s;
-    background-color: #cbd1c1e5;
+    background-color: #d8e3ec;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .head1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 50;
 }
 
@@ -26,11 +26,7 @@ body { /* Body */
     border-radius: 15px;
     max-width: 100%;
     height: auto;
-    background-image: linear-gradient(120deg, 
-  hsl(160, 70%, 50%) 0%,   /* Original: #6caca3 */
-  hsl(160, 70%, 60%) 35%,  /* Original: #73bdb3 */
-  hsl(200, 70%, 50%) 100%  /* Original: #6dadbe */
-);
+    background-color: #2f333d;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
@@ -99,35 +95,29 @@ body { /* Body */
     justify-content: center;
     justify-items: center;
     text-align: center;
-    top: 35px;
+    top: 110px;
     right: 0;
     border-radius: 8px;
-    max-width: 0; /* Start with zero width */
+    max-height: 0; /* Start with zero height */
     overflow: hidden;
-    width: 100%;
+    width: 150px;
     height: 200px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    transition: max-width 1s, opacity 8s, visibility 0s 1s;
+    transition: max-height 1s, opacity 8s, visibility 0s 1s;
     gap: -1px;
     background: hsl(0, 0, 100% / 0.1);
     backdrop-filter: blur(2rem);
-    background-image: linear-gradient(120deg, 
-  hsl(160, 70%, 50%) 0%,   /* Original: #6caca3 */
-  hsl(160, 70%, 60%) 35%,  /* Original: #73bdb3 */
-  hsl(200, 70%, 50%) 100%  /* Original: #6dadbe */
-);
+    background-color: #2f333d;
+    color: #ffffff;
 }
 
 .navhamburger.show {
     opacity: 1;
     visibility: visible;
-    max-width: 150px; /* Expand to full width */
-    transition: max-width 1s;
-    background-image: linear-gradient(120deg, 
-  hsl(160, 70%, 50%) 0%,   /* Original: #6caca3 */
-  hsl(160, 70%, 60%) 35%,  /* Original: #73bdb3 */
-  hsl(200, 70%, 50%) 100%  /* Original: #6dadbe */
-);
+    max-width: 150px;
+    max-height: 200px;
+    transition: max-height 1s;
+    background-color: #2f333d;
 }
 
 
@@ -183,7 +173,7 @@ body { /* Body */
 .imgsameh { /* child 2 */
     text-align: center;
     border-radius: 30px;
-    background-image: linear-gradient(120deg, #3d12fa 0%, #5a08c4 35%, #ff00aa 100%);
+    background-color: #2f333d;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     min-width: 158px;
     max-width: 550px;
@@ -251,7 +241,7 @@ hr{
     flex: 1;
     text-align: center;
     border-radius: 30px;
-    background-image: linear-gradient(120deg, #3d12fa 0%, #5a08c4 35%, #ff00aa 100%);
+    background-color: #2f333d;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     min-width: 158px;
     max-width: 550px;
@@ -272,15 +262,12 @@ hr{
     display: flex;
     justify-content: center;
     align-items: end;
-    background-image: linear-gradient(120deg, 
-  hsl(160, 70%, 50%) 0%,   /* Original: #6caca3 */
-  hsl(160, 70%, 60%) 35%,  /* Original: #73bdb3 */
-  hsl(200, 70%, 50%) 100%  /* Original: #6dadbe */
-);
+    background-color: #2f333d;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 100%;
     margin-top: auto;
+    color: #ffffff;
   }
 
 
@@ -506,4 +493,11 @@ hr{
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 
 /*notes*/
+
+
+/*background-image: linear-gradient(120deg, 
+hsl(160, 70%, 50%) 0%,
+hsl(160, 70%, 60%) 35%,
+hsl(200, 70%, 50%) 100%
+);*/
 
