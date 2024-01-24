@@ -168,6 +168,13 @@ body { /* Body */
 
   .parag{
     white-space: pre-wrap;
+    text-align: center;
+  }
+
+  .hresume{
+    margin-left: 37%;
+    text-decoration: none;
+    margin-bottom: 3%;
   }
   
 
