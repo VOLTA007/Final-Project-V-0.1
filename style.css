@@ -9,6 +9,7 @@ body { /* Body */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
 }
 
 .head1{
@@ -335,8 +336,16 @@ hr{
   }
 
 
-  .slider-nav a :hover{
+  .slider-nav a:hover{
     opacity: 1;
+  }
+
+
+  .b9{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    padding-top: 2px;
   }
 
 
@@ -441,6 +450,8 @@ hr{
     text-align: left;
     text-decoration: underline;
 }
+
+
 
 
 
