@@ -4,6 +4,7 @@ body { /* Body */
     overflow-x: hidden;
     padding: 0;
     margin: 1px;
+    margin-bottom: 0px;
     transition: background-color 0.3s;
     background-color: #d8e3ec;
     min-height: 100vh;
